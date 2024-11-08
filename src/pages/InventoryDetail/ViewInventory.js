@@ -1,11 +1,11 @@
 import React, { useState,useEffect } from 'react';
-import './view.c.style.css';
 import { AiOutlineDown } from 'react-icons/ai';
 import { FaSearch, FaFilter, FaCalendarAlt, FaShareAlt, FaTasks } from 'react-icons/fa';
 import VisibilityIcon from '@mui/icons-material/Visibility';
 import DonutLargeIcon from '@mui/icons-material/DonutLarge';
 import ShoppingBagIcon from '@mui/icons-material/ShoppingBag';
 import IMAGES from '../../assets/Image';
+import './view.inventory.style.css'
 const ViewInventory = () => {
  
   const options = ["last 1 week","last 1 month" ,"last 1 year", ];
