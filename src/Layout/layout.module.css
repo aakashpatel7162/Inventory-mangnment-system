@@ -1,0 +1,141 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 15px;  
+  background-color: #ffffff;  
+  height: 50px;  
+  border-bottom: 1px solid #F1F3F9;
+}
+
+.leftSection {
+  font-size: 28px; 
+  font-weight: bold;
+  color: #333;
+}
+
+.rightSection {
+  display: flex;
+  align-items: center;
+}
+
+.shopSelector {
+  margin-right: 10px; 
+  font-size: 16px;  
+}
+
+.shopDropdown {
+  padding: 6px 20px; 
+  font-size: 14px;  
+  border: 2px solid white;  
+  border-radius: 5px; 
+  background-color: #FEF5EA;  
+  color: #333;  
+  cursor: pointer;
+border-radius: 9px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;  
+}
+
+.shopDropdown:focus {
+  border-color: #0056b3; 
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);  
+}
+
+.notificationIcon {
+  margin-right: 10px;
+  font-size: 16px; 
+  cursor: pointer;
+}
+
+.profileIcon img {
+  width: 30px; 
+  height: 30px; 
+  border-radius: 20%;
+}
+
+.breadcrumbs {
+  padding: 5px 15px; 
+  background-color: #ffffff;  
+  font-size: 12px;  
+  display: flex;
+  align-items: center;
+}
+
+.breadcrumbItem {
+  color: #333;
+}
+
+.breadcrumbItem i {
+  font-size: 14px; 
+  margin-right: 5px;
+}
+
+.breadcrumbLink {
+  text-decoration: none;
+  color: inherit;
+}p
+
+.breadcrumbItem.active {
+  font-weight: bold;
+  color: #007bff;
+}
+
+.sidenav {
+  width: 5rem;
+  height: 100vh;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  color: #333;
+}
+
+.logo {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.navSections {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+}
+
+.bottomOptions {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  margin-top: auto;
+  margin-bottom: 20px;
+}
+
+.navItem {
+  color: #333;
+  font-size: 28px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out, color 0.2s ease-in-out;
+  width:3rem;
+  height:3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  color: black;
+}
+
+.navItem:hover {
+  transform: scale(1.2);
+  color: #5570F1;
+  
+}
